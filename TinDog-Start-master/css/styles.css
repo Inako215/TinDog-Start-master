@@ -1,12 +1,25 @@
 #title {
-  background-color: #ff4c68;
+  background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: right 10% bottom 77%;
   color: #fff;
+  height: 625px;
+  overflow: hidden;
 }
 
 h1 {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 75%;
+  margin: auto;
 }
 
 .download-button {
@@ -53,6 +66,8 @@ body {
 
 #features {
   text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
 }
 
 .feature-box {
@@ -62,7 +77,6 @@ body {
 .icons {
   color: #ef8172;
   font-size: 4rem;
-  padding-top: 4rem;
   margin-bottom: 1.5rem;
 }
 
@@ -77,4 +91,32 @@ body {
 
 .feature-description {
   color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
