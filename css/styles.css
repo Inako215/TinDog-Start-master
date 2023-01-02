@@ -27,6 +27,7 @@ h2 {
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .container-fluid {
@@ -120,6 +121,67 @@ body {
   margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.pricing-subtext {
+  font-size: 1.3rem;
+}
+
+.cards {
+  margin: auto;
+  padding: 5% 10%;
+}
+
+.card-btn {
+  margin-top: 40px;
+}
+
+/* Call to action */
+
+#cta {
+  padding: 3% 0;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.cta-download-btn {
+  margin-top: 10px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #ef8172;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  margin: 5px 7px;
+}
+
+.social-icons:hover {
+  color: #484848;
+}
+
+.copyright {
+  padding: 5px;
+}
 /* Break Points */
 
 /* @media screen and (max-width: 990px) {
