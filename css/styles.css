@@ -203,12 +203,7 @@ body {
   }
 } */
 
-@media (min-width: 300px) and (max-width: 480px) {
-  /* #title {
-    background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
-    background-size: cover;
-  } */
-
+@media (min-width: 350px) and (max-width: 480px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -249,6 +244,16 @@ body {
 
   .footer-text {
     padding-top: 7px;
+  }
+
+  #cta {
+    padding-top: 5%;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
   }
 }
 
