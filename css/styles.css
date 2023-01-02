@@ -242,6 +242,14 @@ body {
     position: relative;
     bottom: 5px;
   }
+
+  .cust-card {
+    margin-bottom: 25px;
+  }
+
+  .footer-text {
+    padding-top: 7px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -256,5 +264,89 @@ body {
 
   h1 {
     font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  #testimonials {
+    padding: 7% 10%;
+    height: 34rem;
+  }
+
+  #press {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .cust-card {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  #cta {
+    position: relative;
+    top: 3px;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #testimonials {
+    height: 43rem;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .cust-card {
+    margin: 20px auto;
+    width: 85%;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
   }
 }
