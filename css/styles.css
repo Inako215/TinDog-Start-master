@@ -141,7 +141,7 @@ body {
   }
 } */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   /* #title {
     background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
     background-size: cover;
