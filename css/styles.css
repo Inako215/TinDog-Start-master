@@ -182,26 +182,8 @@ body {
 .copyright {
   padding: 5px;
 }
+
 /* Break Points */
-
-/* @media screen and (max-width: 990px) {
-  #title::before {
-    content: "";
-    background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
-    height: 700px;
-  }
-
-  #features {
-    margin-top: 4rem;
-  }
-} */
 
 @media (min-width: 350px) and (max-width: 480px) {
   h1 {
