@@ -1,0 +1,339 @@
+#title {
+  background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 45rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  position: relative;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 75%;
+  margin: auto;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  position: relative;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icons {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.pricing-subtext {
+  font-size: 1.3rem;
+}
+
+.cards {
+  margin: auto;
+  padding: 5% 10%;
+}
+
+.card-btn {
+  margin-top: 40px;
+}
+
+/* Call to action */
+
+#cta {
+  padding: 3% 0;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.cta-download-btn {
+  margin-top: 10px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #ef8172;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  margin: 5px 7px;
+}
+
+.social-icons:hover {
+  color: #484848;
+}
+
+.copyright {
+  padding: 5px;
+}
+
+/* Break Points */
+
+@media (min-width: 350px) and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    padding: 0 4%;
+  }
+
+  #testimonials {
+    padding: 7% 10%;
+    height: 25rem;
+  }
+
+  .title-content {
+    position: relative;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .press-logo {
+    width: 25%;
+  }
+
+  #press {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .cust-card {
+    margin-bottom: 25px;
+  }
+
+  .footer-text {
+    padding-top: 7px;
+  }
+
+  #cta {
+    padding-top: 5%;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #title {
+    background-position: 35%;
+    overflow: hidden;
+  }
+
+  .title-content {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  #testimonials {
+    padding: 7% 10%;
+    height: 34rem;
+  }
+
+  #press {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .cust-card {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  #cta {
+    position: relative;
+    top: 3px;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #testimonials {
+    height: 43rem;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .cust-card {
+    margin: 20px auto;
+    width: 85%;
+  }
+
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  #footer {
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  #press {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
+  }
+}
